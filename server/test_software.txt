@@ -1,0 +1,52 @@
+{
+    "1": {
+        "mcq": "What is the function of the cell membrane?",
+        "options": {
+            "a": "Controls cell activities",
+            "b": "Stores genetic information",
+            "c": "Allows only some substances to pass through",
+            "d": "Produces energy for the cell"
+        },
+        "correct": "c"
+    },
+    "2": {
+        "mcq": "Which organelle is responsible for photosynthesis in plant cells?",
+        "options": {
+            "a": "Mitochondria",
+            "b": "Ribosomes",
+            "c": "Golgi body",
+            "d": "Chloroplasts"
+        },
+        "correct": "d"
+    },
+    "3": {
+        "mcq": "What is the function of the nucleus in a cell?",
+        "options": {
+            "a": "Synthesises proteins",
+            "b": "Controls cell activities",
+            "c": "Detoxifies harmful substances",
+            "d": "Stores and packages substances for secretion"
+        },
+        "correct": "b"
+    },
+    "4": {
+        "mcq": "Which organelle is responsible for aerobic respiration in cells?",
+        "options": {
+            "a": "Golgi body",
+            "b": "Chloroplasts",
+            "c": "Mitochondria",
+            "d": "Ribosomes"
+        },
+        "correct": "c"
+    },
+    "5": {
+        "mcq": "What is the main function of vacuoles in plant cells?",
+        "options": {
+            "a": "Synthesise fats and steroids",
+            "b": "Store substances within the cell",
+            "c": "Control the movement of substances in and out of the cell",
+            "d": "Produce energy for cell activities"
+        },
+        "correct": "b"
+    }
+}

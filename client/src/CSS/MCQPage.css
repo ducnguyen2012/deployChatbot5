@@ -1,0 +1,134 @@
+.mcq-form {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto; /* Space around form */
+    padding: 20px;
+    background-color: #FFF8E8; /* Soft background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased spacing */
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px; /* Spacing for labels */
+    font-weight: bold;
+    display: block;
+}
+
+.input-field {
+    width: 96%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff; /* White background for inputs */
+    transition: border-color 0.3s ease; /* Transition effect */
+}
+
+.input-field:focus {
+    border-color: #4CAF50; /* Green border on focus */
+}
+
+.fetch-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
+}
+
+.fetch-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px); /* lift up effect*/
+}
+
+.questions-container {
+    margin-top: 20px;
+}
+
+.question-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #FFF4DC; /* Soft background for questions */
+    border-radius: 6px; /* Rounded corners */
+}
+
+.option-label {
+    display: flex; /* Horizontal alignment */
+    align-items: center;
+    margin-top: 10px; /* Spacing between options */
+    font-size: 16px;
+}
+
+.option-input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.feedback.correct {
+    color: #4CAF50; /* Green for correct */
+}
+
+.feedback.wrong {
+    color: #f44336; /* Red for incorrect */
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.dot-container {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 12px; /* Slightly larger dots */
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.6s;
+}
