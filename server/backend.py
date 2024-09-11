@@ -8,7 +8,9 @@ CORS(app) #! this CORS will allow request from react frontend. If it dont then w
 
 
 FILEPATH = '../../pdfData/Cells and Chemistry of Life.pdf'
-
+@app.route('/head', methods=['GET'])
+def head():
+    return jsonify({"response": "THis is head of server"})
 
 @app.route('/', methods=['POST', 'GET'])
 def chatbotMessage():
