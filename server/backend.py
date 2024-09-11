@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from PMC.ChatBot import ChatBot
 from MCQModule.GenerateMCQMain import GenerateMCQ
+
 app = Flask(__name__)
 CORS(app) #! this CORS will allow request from react frontend. If it dont then will cause network error!
 
@@ -9,7 +10,7 @@ CORS(app) #! this CORS will allow request from react frontend. If it dont then w
 FILEPATH = '../../pdfData/Cells and Chemistry of Life.pdf'
 
 
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['POST', 'GET'])
 def chatbotMessage():
     try:
         userMessage = request.get_json().get('message')
@@ -35,4 +36,4 @@ def uploadQuestion():
     return jsonify(question)
     
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000,debug=True)

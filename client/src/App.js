@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/ChatBotAIWebsite' element={<Home />} />
         
         <Route path='/question' element={<MCQPage/>} />
       </Routes>

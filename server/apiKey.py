@@ -1,5 +1,9 @@
+from dotenv import load_dotenv, dotenv_values
+import os
+load_dotenv()
+
 def api():
     '''
     return api key if you adjust this!
     '''
-    return "ENTER YOUR API KEY IN HERE"
+    return os.getenv("MY_SECRET_KEY")

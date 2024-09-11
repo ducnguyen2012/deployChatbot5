@@ -26,7 +26,7 @@ const MCQPage = () => {
 
   const handleFetchQuestion = () => {
     setIsLoading(true); // Start loading
-    fetch('http://127.0.0.1:5000/question', {
+    fetch('https://websitechatbotbackend.onrender.com/question', {
       method: "POST",
       headers: {
         'Content-type': 'application/json',
