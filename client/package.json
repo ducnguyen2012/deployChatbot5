@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ducnguyen2012.github.io/ChatBotAIWebsite",
+  
 
   "name": "client",
   
@@ -62,7 +62,7 @@
     
 
   "start": "react-scripts start",
-  "predeploy": "npm run build",
+  
 
     
 
@@ -88,7 +88,7 @@
 
     
 
-  "deploy": "gh-pages -d build"
+  
 
   },
   
